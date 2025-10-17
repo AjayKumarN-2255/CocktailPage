@@ -1,14 +1,17 @@
-import React from 'react'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import gsap from 'gsap'
+
+import Navbar from './components/Navbar';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
   return (
-    <div className='bg-red-950 p-10 text-white text-xl font-bold'>
-      App
-    </div>
+    <main>
+       <Navbar/>
+       <div className="h-screen w-full"></div>
+       <div className="h-screen w-full"></div>
+    </main>
   )
 }
 
