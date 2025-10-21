@@ -106,6 +106,7 @@ function Hero() {
                     ref={videoRef}
                     muted
                     playsInline
+                    // className='bg-red-500'
                     preload="auto"
                     src="/videos/output.mp4"
                 />
