@@ -47,7 +47,7 @@ function Menu() {
                 Cocktail Menu
             </h2>
 
-            <nav className="cocktail-tabs bg-blue-700" aria-label='Cocktail Navigation'>
+            <nav className="cocktail-tabs" aria-label='Cocktail Navigation'>
                 {allCocktails.map((cocktail, index) => {
                     const isActive = index === currentIndex;
 
